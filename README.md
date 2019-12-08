@@ -1,6 +1,6 @@
 # google-signin-using-passportjs
 
-#Google+ SignIn API - Authentication using Passport.js
+# Google+ SignIn API - Authentication using Passport.js
 
 This project is created for learning purpose. In this project here is the glimpse, what we are going to do.
 1. We are going to use Passport-Google Strategy to SignIn User
@@ -8,7 +8,7 @@ This project is created for learning purpose. In this project here is the glimps
 3. Then we will do testing (For this project testing through Postman, we have to use different method which I have mentioned below.)
 
 
-#Step for Setting Client Id and Client Secret
+# Step for Setting Client Id and Client Secret
 
 - [Open Google Developer Console](https://console.developers.google.com/)
 - Create new Project
@@ -23,7 +23,7 @@ This project is created for learning purpose. In this project here is the glimps
 - Store your Client ID and Client Secret somewhere. It will be required at the time of Authentication using Passport
 
 
-#How to test this in Postman.
+# How to test this in Postman.
 
 Here, we have to pass access_token in request body. So to generate access_token follow below steps.
 
@@ -31,6 +31,7 @@ Here, we have to pass access_token in request body. So to generate access_token 
 - Choose Google+ API v1 (from Step1)
 - Enable below two scopes
 > https://www.googleapis.com/auth/userinfo.email
+
 > https://www.googleapis.com/auth/userinfo.profile
 - Click on Authorize APIs
 - Choose your Google Account
@@ -39,7 +40,7 @@ Here, we have to pass access_token in request body. So to generate access_token 
 - Use it for request payload
 
 
-#cURL Script for SignIn API
+# cURL Script for SignIn API
 
 ```sh
 curl -X POST \
