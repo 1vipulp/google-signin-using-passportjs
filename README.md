@@ -1,5 +1,3 @@
-# google-signin-using-passportjs
-
 # Google+ SignIn API - Authentication using Passport.js
 
 This project is created for learning purpose. In this project here is the glimpse, what we are going to do.
